@@ -1,5 +1,5 @@
 # Bare-Metal-Forms-and-Helpers
-> This is a simple Forms creation project built in Ruby on Rails.
+> This is a simple Forms creation project built in Ruby on Rails, which is part of the Forms Project in [the Odin Project’s](http://www.theodinproject.com) Ruby on Rails Curriculum.
 
 <!-- <div align="center">
   <img src="screenshot.png?raw=true" width="auto" height="auto"/>
