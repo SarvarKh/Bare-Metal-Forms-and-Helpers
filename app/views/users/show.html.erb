@@ -1,0 +1,10 @@
+<h1> <%= @user.username %> </h1>
+
+<article>
+    User Name: <%= @user.username %> <br>
+    Email: <%= @user.email %> <br>
+    Password: ********<br>
+</article> <br>
+
+<%= link_to 'All users', root_path %> | 
+<%= link_to 'Edit', edit_user_path(@user) %> |
