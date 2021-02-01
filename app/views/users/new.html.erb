@@ -10,3 +10,28 @@
 
   <%= form.submit "Create User" %>
 <% end %>
+
+<!--
+<%= <%= form_tag users_path do %> %>
+  <label>User name:</label>
+  <%= text_field_tag :'user[username]' %><br><br>
+  <label>Email:</label>
+  <%= email_field_tag :'user[email]' %><br><br>
+  <label>Password:</label>
+  <%= password_field_tag :'user[password]' %><br><br>
+
+  <%= submit_tag "Create User" %>
+<% end %>
+-->
+
+<!--
+<form accept-charset="UTF-8" action="/users" method="post">
+  <label for="username">User name:</label>
+  <input type="text" id="username" name="user[username]"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="user[email]"><br><br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="user[password]"><br><br>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="submit" value="Submit">
+</form> -->
