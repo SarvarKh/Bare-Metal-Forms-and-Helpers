@@ -1,14 +1,26 @@
 # Bare-Metal-Forms-and-Helpers
 > This is a simple Forms creation project built in Ruby on Rails, which is part of the Forms Project in [the Odin Project’s](http://www.theodinproject.com) Ruby on Rails Curriculum.
 
-<!-- <div align="center">
-  <img src="screenshot.png?raw=true" width="auto" height="auto"/>
-</div> -->
+<div align="center">
+  <img src="screen_main.png?raw=true" width="auto" height="auto"/>
+</div>
+
+<div align="center">
+  <img src="screen_create.png?raw=true" width="auto" height="auto"/>
+</div>
+
+<div align="center">
+  <img src="screen_user.png?raw=true" width="auto" height="auto"/>
+</div>
+
+<div align="center">
+  <img src="screen_edit.png?raw=true" width="auto" height="auto"/>
+</div>
 
 **What you can do with this project**
-- You can create Forms
-- You can edit Forms
-- ...
+- You can create User progile with Username, email and password
+- You can edit created profiles
+- You can see all users in the main page
 
 ## Built With
 
