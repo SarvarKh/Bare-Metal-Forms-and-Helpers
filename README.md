@@ -18,9 +18,9 @@
 </div>
 
 **What you can do with this project**
-- You can create User progile with Username, email and password
-- You can edit created profiles
-- You can see all users in the main page
+- You can create User progile with Username, email and password;
+- You can edit created profiles;
+- You can see all users in the main page;
 
 ## Built With
 
