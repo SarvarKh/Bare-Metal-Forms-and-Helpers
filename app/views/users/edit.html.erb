@@ -1,0 +1,12 @@
+<%= form_with model: @user do |form| %>
+  <%= form.label :username, "User name:" %>
+  <%= form.text_field :username, placeholder: "Enter full name", autofocus: true %><br><br>
+
+  <%= form.label :email, "Email:" %>
+  <%= form.email_field :email, placeholder: "example@example.com" %><br><br>
+
+  <%= form.label :password, "Password:" %>
+  <%= form.text_field :password, placeholder: "Enter a new password" %><br><br>
+
+  <%= form.submit "Submit" %>
+<% end %>

@@ -1,0 +1,13 @@
+<h1><%= pluralize(@users.size, "User") %></h1>
+
+<%= link_to "Add New User", new_user_path%>
+
+<ul>
+    <% @users.each do |user| %>
+        <li>
+            <strong> <%= link_to(user.username, user) %> </strong> <br>
+            Email: <%= user.email %> <br>
+            Password: ********<br>
+        </li> <br>
+    <% end %>
+</ul>
